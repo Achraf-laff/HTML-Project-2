@@ -1,0 +1,63 @@
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+body {
+    font-family: Roboto;
+}
+nav ul li {
+    margin-right: 20px;
+}
+.main-heading {
+    font-size: 4rem;
+    text-align: center;
+}
+body {
+    background-color: lightgray;
+}
+#contact label,
+#contact input,
+#contact textarea,
+#contact button {
+    display: block;
+    margin-bottom: 10px;
+}
+#about {
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+#work {
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+#resume {
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+nav ul li a {
+    color: black;
+}
+nav ul li a:hover {
+    color: blue;
+}
+.back-to-top-button {
+    position: absolute;
+    top: 226%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+.back-to-top-button:hover {
+    background-color: darkgray;
+}
